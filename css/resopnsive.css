@@ -2,24 +2,49 @@
 
     /* tablet */
     @media screen and (min-width: 780px) {
-    
-    }
-    
-        /* pc */
-    @media screen and (min-width: 992px) {
-
-        /* header */
-        .menu { 
-            display: none;
-        }
-
-        .link{
+        
+        /* card */
+        .row {
             display: flex;
-        }
-
-        .container {
-            width: 75%;
+            flex-wrap: wrap;
+            gap: 2rem;
         }
         
+        .col-big {
+            width: calc(100%/3*2 - 2rem);
+            margin-bottom: 0; 
+                      
+        }
+
+        .col {
+            width: calc(100%/3 - 2rem);  
+            margin-bottom: 0;            
+    
+    }
+}
+    
+        /* pc */
+    
+@media screen and (min-width: 992px) {
+
+    /* header */
+    .menu { 
+            display: none;
+    }
+
+    .link{
+        display: flex;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    /* card  */
+
+    .col-big {
+        display: flex;
+        aspect-ratio: 4/2;
+    }
     
     }
