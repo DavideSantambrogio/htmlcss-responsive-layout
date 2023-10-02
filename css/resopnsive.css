@@ -1,26 +1,40 @@
 /* responsive */
 
     /* tablet */
-    @media screen and (min-width: 780px) {
+@media screen and (min-width: 780px) {
         
-        /* card */
-        .row-application {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-        }
-        
-        .col-big {
-            width: calc(100%/3*2 - 2rem);
-            margin-bottom: 0; 
-                      
-        }
-
-        .col-application {
-            width: calc(100%/3 - 2rem);  
-            margin-bottom: 0;            
-    
+    /* card */
+    .row-application {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
     }
+        
+    .col-big {
+        width: calc(100%/3*2 - 2rem);
+        margin-bottom: 0;                       
+    }
+
+    .col-application {
+        width: calc(100%/3 - 2rem);  
+        margin-bottom: 0;    
+    }
+
+    /* testimonial  */
+
+    .col-testimonial {
+        display: flex;
+    }
+
+    .col-testimonial img{
+        width: calc(100%/4);
+    }
+
+    .testimonial-txt {
+        text-align: left ;
+    }
+
+
 }
     
         /* pc */
