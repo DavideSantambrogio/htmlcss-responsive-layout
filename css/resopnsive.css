@@ -7,5 +7,19 @@
     
         /* pc */
     @media screen and (min-width: 992px) {
+
+        /* header */
+        .menu { 
+            display: none;
+        }
+
+        .link{
+            display: flex;
+        }
+
+        .container {
+            width: 75%;
+        }
+        
     
     }

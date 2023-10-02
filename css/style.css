@@ -5,18 +5,103 @@
     font-family: 'PT Sans', sans-serif;
 }
 
-:root {
-    --background-blu:hsl(#0084fd);
-    --background-lavander:hsl(#9792e4)
+img {
+    max-width: 100%;    
 }
 
+:root {
+    --background-blu: #0084fd;
+    --background-lavander:#9792e4;
+    --background-card: #b5ddff;
+}
 
+/* common */
+.button {     
+    border-radius: 2rem;    
+}
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;  
+
+}
 /* header */
 header {
-    background-color: aqua;
+    background-color:var(--background-blu);
+    margin-bottom: 2rem;
+}
+
+.header {    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+}
+
+.link .button {
+    color: black;
+    background-color: white;
+
+}
+
+.link {
+    display: none;
+    
+}
+
+.link a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
 }
 
 /* main */
+
+/* card */
+.col {
+    background-color: var(--background-card);
+    border-radius: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 1.5rem;
+   
+}
+
+.application :not(img) {
+    margin-bottom: 1.5rem;
+}
+
+.card-title{
+    color: var(--background-blu);
+}
+
+.application .button {
+    background-color: var(--background-blu);
+    width: calc(100%/3*2);
+    color: white;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;    
+}
+
+.card {padding: 1.5rem;
+
+}
+
+.card-ico{
+    font-size: 5rem;
+    color: var(--background-blu);
+}
+
+.card-txt{
+    text-align: center;
+}
+
+.card-txt > * {
+    margin-bottom: 1.5rem;
+}
+
+
+
 
 /* footer */
