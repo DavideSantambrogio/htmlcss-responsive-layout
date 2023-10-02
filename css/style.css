@@ -26,6 +26,11 @@ img {
     padding: 1rem;  
 
 }
+
+.lavander {
+    background-color: var(--background-lavander);
+}
+
 /* header */
 header {
     background-color:var(--background-blu);
@@ -99,6 +104,43 @@ header {
 
 .card-txt > * {
     margin-bottom: 1.5rem;
+}
+
+/* planning */
+.planning {
+    padding: 5rem 0;
+}
+
+.strategic > * {
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.strategic h2 {
+    font-size: 2.5rem;
+}
+
+.container-app {
+    background-color: white;
+    border-radius: 3rem;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+}
+
+.app > * {
+    margin-bottom: 2rem;
+}
+
+.app p {
+    font-style: italic;
+}
+
+.fa-arrow-down {
+    background-color: #9792e4;
+    border-radius: 50%;   
+    width: 3rem;    
+    height: 3rem;
+    padding: 1rem;
 }
 
 
