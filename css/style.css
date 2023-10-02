@@ -17,7 +17,8 @@ img {
 
 /* common */
 .button {     
-    border-radius: 2rem;    
+    border-radius: 2rem;
+    width: fit-content;    
 }
 
 .container {
@@ -166,6 +167,42 @@ header {
 .testimonial-txt > * { 
     margin-top: 1.5rem;   
       
+}
+
+/* benefit */
+
+.benefit > h2{
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+
+.col-benefit > * {
+    margin-bottom: 2rem;
+}
+
+.col-benefit {
+    background-color: white;
+    color: var(--background-lavander);
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.col-benefit h2{
+    font-size: 3rem;
+}
+
+.col-benefit p {
+    color: black;
+}
+
+.more {
+    background-color: var(--background-lavander);
+    color: white;
+    padding: .5rem 2.5rem; 
+    margin-bottom: 0;  
 }
 
 
