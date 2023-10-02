@@ -4,7 +4,7 @@
     @media screen and (min-width: 780px) {
         
         /* card */
-        .row {
+        .row-application {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
@@ -16,7 +16,7 @@
                       
         }
 
-        .col {
+        .col-application {
             width: calc(100%/3 - 2rem);  
             margin-bottom: 0;            
     
@@ -46,5 +46,19 @@
         display: flex;
         aspect-ratio: 4/2;
     }
+
+    /* planning */
+    .planning { 
+        width: 60%;       
+        display: flex;
+        gap: 2rem;
+        
+    }
+
+    .strategic  .container-app {
+        width: 50%;
+        
+    }
+
     
     }
