@@ -12,7 +12,8 @@
         
     .col-big {
         width: calc(((100%/3 - (var(--grid-gap)/3)*2)*2) + (var(--grid-gap)));
-        margin-bottom: 0;                       
+        margin-bottom: 0; 
+                          
     }
 
     .col-application {
@@ -85,7 +86,7 @@
     }
 
     /* planning */
-    .planning { 
+    .container-planning { 
         width: 60%;       
         display: flex;
         gap: 2rem;   
