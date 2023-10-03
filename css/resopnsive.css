@@ -7,16 +7,16 @@
     .row-application {
         display: flex;
         flex-wrap: wrap;
-        gap: 2rem;
+        gap: var(--grid-gap);
     }
         
     .col-big {
-        width: calc(100%/3*2 - 2rem);
+        width: calc(((100%/3 - (var(--grid-gap)/3)*2)*2) + (var(--grid-gap)));
         margin-bottom: 0;                       
     }
 
     .col-application {
-        width: calc(100%/3 - 2rem);  
+        width: calc(100%/3 - (var(--grid-gap)/3)*2);  
         margin-bottom: 0;    
     }
 
@@ -37,14 +37,14 @@
     /* benefit */  
 
     .col-benefit {       
-        width: calc(100%/2 - 1.5rem);
-        margin-bottom: 0;                      
+        width: calc(100%/2 - (var(--grid-gap)/2));  
+        margin-bottom: 0;                     
     }
 
     .row-benefit {
         display: flex;
         flex-wrap: wrap;
-        gap: 1.5rem;
+        gap: var(--grid-gap);
         margin-bottom: 0;        
 
     }
@@ -69,6 +69,14 @@
         width: 75%;
     }
 
+    /* application */
+    
+    .col-big img {
+        max-width: 90%;
+        max-height: 90%;
+        align-self: flex-end;
+    }
+
     /* card  */
 
     .col-big {
@@ -80,7 +88,8 @@
     .planning { 
         width: 60%;       
         display: flex;
-        gap: 2rem;        
+        gap: 2rem;   
+
     }
 
     .strategic  .container-app {
@@ -90,7 +99,7 @@
 
     /* benefit */
     .col-benefit {       
-        width: calc(100%/3 - 1.5rem);
+        width: calc(100%/3 - (var(--grid-gap)/3)*2);
         margin-bottom: 0;                      
     }   
 
