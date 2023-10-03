@@ -73,6 +73,11 @@
         left: -4rem;
     }
 
+    /* footer */
+    .footer-container {
+        width: 50%;
+    }
+
    
        
     /* pc */
@@ -151,5 +156,5 @@
      .small-container {
         zoom: 80%;
     }
-        
+
 }

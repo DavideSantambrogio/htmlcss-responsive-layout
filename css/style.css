@@ -13,6 +13,7 @@ img {
     --background-blu: #0084fd;
     --background-lavander:#9792e4;
     --background-card: #b5ddff;
+    --background-footer: #333333;
 
     --grid-gap: 2rem
 
@@ -320,9 +321,24 @@ main {
     margin: 0 .5rem;   
 }
 
-.small-container {}
-
-
-
-
 /* footer */
+
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.footer-container > * {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: var(--background-footer);    
+}
+
+.credit a {
+    color: var(--background-lavander);
+}
