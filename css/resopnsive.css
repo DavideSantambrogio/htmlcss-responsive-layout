@@ -73,10 +73,8 @@
         left: -4rem;
     }
 
-
-
-}
-    
+   
+       
     /* pc */
     
 @media screen and (min-width: 992px) {
@@ -147,5 +145,11 @@
     .tutor h3 {        
         font-size: 1.5em;
     }
+
+     /* call to action */
     
+     .small-container {
+        zoom: 80%;
+    }
+        
 }
