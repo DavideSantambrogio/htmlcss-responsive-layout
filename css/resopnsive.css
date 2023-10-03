@@ -28,7 +28,8 @@
     }
 
     .col-testimonial img{
-        width: calc(100%/4);
+        width: 7rem;
+        height: 7rem;
     }
 
     .testimonial-txt {
@@ -49,6 +50,29 @@
         margin-bottom: 0;        
 
     }
+
+    /* about us  */
+    .about {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-txt {
+        width: 45%;
+    }
+
+    .tutor {
+        width: 45%;
+    }
+
+    .tutor img {
+        width: 100%;
+    }
+
+    .about-img i {        
+        left: -4rem;
+    }
+
 
 
 }
@@ -98,11 +122,30 @@
         
     }
 
+    /* testimonioal */
+
     /* benefit */
     .col-benefit {       
         width: calc(100%/3 - (var(--grid-gap)/3)*2);
         margin-bottom: 0;                      
     }   
 
-    
+    /* about us  */
+
+    .about-txt {
+        width:60%;
     }
+
+    .tutor {
+        width: 30%;
+    }  
+
+    .about-img i {        
+        left: -4rem;
+    }
+
+    .tutor h3 {        
+        font-size: 1.5em;
+    }
+    
+}

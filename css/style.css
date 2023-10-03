@@ -41,6 +41,7 @@ header {
     margin-bottom: 2rem;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 
 .header {    
@@ -97,8 +98,8 @@ main {
     line-height: 3rem;    
 }
 
-.card {padding: 1.5rem;
-
+.card {
+    padding: 1.5rem;
 }
 
 .card-ico{
@@ -175,6 +176,7 @@ main {
     object-fit: cover;
     width: 17rem;
     height: 17rem;
+    
 }
 
 .testimonial-txt > * { 
@@ -217,8 +219,55 @@ main {
     padding: .5rem 2.5rem; 
     margin-bottom: 0;  
 }
+ 
+/* about us */
+.about h2 {
+    font-size: 3rem ;
+    padding-bottom: 3rem;
+    color: var(--background-lavander);
+}
+.about p {
+    margin-bottom: 3rem;
+}
+
+.about-img {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.about-img img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.about-img i {
+    font-size: 4rem;
+    position: relative;
+    left: -2.5rem;    
+    color: var(--background-lavander);
+    
+}
+
+.about h3 {
+    color: var(--background-lavander);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
 
 
+.linkedin {
+    color: white;
+    background-color: var(--background-lavander);
+    padding: .5rem 1rem;
+}
+
+.linkedin i {
+    margin-right: 1rem;
+}
+
+.about {
+    padding: 4rem 0 6rem ;
+}
 
 
 /* footer */
